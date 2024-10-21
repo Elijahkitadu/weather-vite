@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}

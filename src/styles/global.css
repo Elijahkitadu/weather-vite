@@ -1,0 +1,66 @@
+/* src/styles/global.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .dashboard {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info img {
+    margin-top: 10px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+  }
+  
